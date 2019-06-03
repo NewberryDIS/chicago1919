@@ -1,0 +1,9 @@
+URL [https://api.twitter.com/1.1/search/tweets.json?q=%23chi1919%20exclude%3Aretweets&count=4&tweet_mode=extended]
+success
+[]
+[ { url: 'https://t.co/QBuDaFvzEA',
+    expanded_url: 'https://www.ethicalhuman.org/index.php/programs/14-speakers/231-petercole#.XKoCK6oK2UQ.twitter',
+    display_url: 'ethicalhuman.org/index.php/prog…',
+    indices: [ 233, 256 ] } ]
+[]
+[]

@@ -1,0 +1,10 @@
+AuthUserFile /home/newberry/webapps/chicago1919/edit/.htpasswd
+AuthName EnterPassword
+AuthType Basic
+require valid-user
+
+# Hide files starting with a dot (.htaccess and .htpasswd in particular)
+<Files .*>
+order allow,deny
+deny from all
+</Files>

@@ -1,0 +1,850 @@
+{
+  "statuses": [
+    {
+      "created_at": "Tue Nov 13 16:29:32 +0000 2018",
+      "id": 1062381961258418200,
+      "id_str": "1062381961258418177",
+      "full_text": "RT @wheezllet: I never know what to write on a postcard. I wish they were all like this #laudertuck https://t.co/L5iuOGRQ8E",
+      "truncated": false,
+      "display_text_range": [
+        0,
+        123
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "text": "laudertuck",
+            "indices": [
+              88,
+              99
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "wheezllet",
+            "name": "Leah",
+            "id": 1050055556248064000,
+            "id_str": "1050055556248064000",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 1062067409362636800,
+            "id_str": "1062067409362636800",
+            "indices": [
+              100,
+              123
+            ],
+            "media_url": "http://pbs.twimg.com/media/Dr04roaUUAAOxUn.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Dr04roaUUAAOxUn.jpg",
+            "url": "https://t.co/L5iuOGRQ8E",
+            "display_url": "pic.twitter.com/L5iuOGRQ8E",
+            "expanded_url": "https://twitter.com/wheezllet/status/1062067554594816000/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 771,
+                "h": 488,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 430,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 771,
+                "h": 488,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1062067554594816000,
+            "source_status_id_str": "1062067554594816000",
+            "source_user_id": 1050055556248064000,
+            "source_user_id_str": "1050055556248064000"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1062067409362636800,
+            "id_str": "1062067409362636800",
+            "indices": [
+              100,
+              123
+            ],
+            "media_url": "http://pbs.twimg.com/media/Dr04roaUUAAOxUn.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Dr04roaUUAAOxUn.jpg",
+            "url": "https://t.co/L5iuOGRQ8E",
+            "display_url": "pic.twitter.com/L5iuOGRQ8E",
+            "expanded_url": "https://twitter.com/wheezllet/status/1062067554594816000/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 771,
+                "h": 488,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 430,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 771,
+                "h": 488,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1062067554594816000,
+            "source_status_id_str": "1062067554594816000",
+            "source_user_id": 1050055556248064000,
+            "source_user_id_str": "1050055556248064000"
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 879485910106222600,
+        "id_str": "879485910106222592",
+        "name": "CrowdsourceJM",
+        "screen_name": "CrowdsourceJM",
+        "location": "Chicago, IL",
+        "description": "Interested in crowdsourced transcription and DH projects, digital collections news. Work at Newberry Library, all ideas and views personal.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 234,
+        "friends_count": 699,
+        "listed_count": 4,
+        "created_at": "Mon Jun 26 23:45:55 +0000 2017",
+        "favourites_count": 1089,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 834,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/917421798966353920/gSibz3nn_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/917421798966353920/gSibz3nn_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/879485910106222592/1498522385",
+        "profile_link_color": "F58EA8",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Mon Nov 12 19:40:11 +0000 2018",
+        "id": 1062067554594816000,
+        "id_str": "1062067554594816000",
+        "full_text": "I never know what to write on a postcard. I wish they were all like this #laudertuck https://t.co/L5iuOGRQ8E",
+        "truncated": false,
+        "display_text_range": [
+          0,
+          84
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "laudertuck",
+              "indices": [
+                73,
+                84
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 1062067409362636800,
+              "id_str": "1062067409362636800",
+              "indices": [
+                85,
+                108
+              ],
+              "media_url": "http://pbs.twimg.com/media/Dr04roaUUAAOxUn.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Dr04roaUUAAOxUn.jpg",
+              "url": "https://t.co/L5iuOGRQ8E",
+              "display_url": "pic.twitter.com/L5iuOGRQ8E",
+              "expanded_url": "https://twitter.com/wheezllet/status/1062067554594816000/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 771,
+                  "h": 488,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 430,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 771,
+                  "h": 488,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1062067409362636800,
+              "id_str": "1062067409362636800",
+              "indices": [
+                85,
+                108
+              ],
+              "media_url": "http://pbs.twimg.com/media/Dr04roaUUAAOxUn.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Dr04roaUUAAOxUn.jpg",
+              "url": "https://t.co/L5iuOGRQ8E",
+              "display_url": "pic.twitter.com/L5iuOGRQ8E",
+              "expanded_url": "https://twitter.com/wheezllet/status/1062067554594816000/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 771,
+                  "h": 488,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 430,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 771,
+                  "h": 488,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1050055556248064000,
+          "id_str": "1050055556248064000",
+          "name": "Leah",
+          "screen_name": "wheezllet",
+          "location": "",
+          "description": "Librarian and World Traveler. Also likes dogs and memes and unsolved mysteries.",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 34,
+          "friends_count": 150,
+          "listed_count": 1,
+          "created_at": "Wed Oct 10 16:08:48 +0000 2018",
+          "favourites_count": 106,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 53,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1050078866566348800/Ld7o0Bdn_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1050078866566348800/Ld7o0Bdn_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1050055556248064000/1539193474",
+          "profile_link_color": "E81C4F",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 5,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Nov 13 15:10:48 +0000 2018",
+      "id": 1062362148310077400,
+      "id_str": "1062362148310077440",
+      "full_text": "RT @CrowdsourceJM: \"perhaps unimaginable today—in the age of instantaneous and inexpensive  communication—is how popular and important post…",
+      "truncated": false,
+      "display_text_range": [
+        0,
+        140
+      ],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "CrowdsourceJM",
+            "name": "CrowdsourceJM",
+            "id": 879485910106222600,
+            "id_str": "879485910106222592",
+            "indices": [
+              3,
+              17
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 42056589,
+        "id_str": "42056589",
+        "name": "jtd",
+        "screen_name": "hotdogpickles",
+        "location": "Chicago",
+        "description": "Director of Digital Initiatives and Services @NewberryLibrary, locks, keys, yoga, urban hikes, cooking, pens, and round things.",
+        "url": "https://t.co/RA0SnoGP7S",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/RA0SnoGP7S",
+                "expanded_url": "http://www.newberry.org/digital-resources-and-publications",
+                "display_url": "newberry.org/digital-resour…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 193,
+        "friends_count": 803,
+        "listed_count": 3,
+        "created_at": "Sat May 23 16:48:07 +0000 2009",
+        "favourites_count": 1004,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 751,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/504335729737359360/JH_NrUSb_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/504335729737359360/JH_NrUSb_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/42056589/1381282521",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Mon Nov 12 23:27:23 +0000 2018",
+        "id": 1062124728796758000,
+        "id_str": "1062124728796758016",
+        "full_text": "\"perhaps unimaginable today—in the age of instantaneous and inexpensive  communication—is how popular and important postcards were at the turn of  the twentieth century.\" https://t.co/hPoYmx2EUA #LauderTuck https://t.co/aKNEIjXBoF",
+        "truncated": false,
+        "display_text_range": [
+          0,
+          206
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "LauderTuck",
+              "indices": [
+                195,
+                206
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/hPoYmx2EUA",
+              "expanded_url": "https://hanahou.com/21.5/greetings-from-hawaii",
+              "display_url": "hanahou.com/21.5/greetings…",
+              "indices": [
+                171,
+                194
+              ]
+            }
+          ],
+          "media": [
+            {
+              "id": 1062123889222811600,
+              "id_str": "1062123889222811648",
+              "indices": [
+                207,
+                230
+              ],
+              "media_url": "http://pbs.twimg.com/media/Dr1sDMSVAAAyVO3.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Dr1sDMSVAAAyVO3.jpg",
+              "url": "https://t.co/aKNEIjXBoF",
+              "display_url": "pic.twitter.com/aKNEIjXBoF",
+              "expanded_url": "https://twitter.com/CrowdsourceJM/status/1062124728796758016/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 565,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 950,
+                  "h": 790,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 950,
+                  "h": 790,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1062123889222811600,
+              "id_str": "1062123889222811648",
+              "indices": [
+                207,
+                230
+              ],
+              "media_url": "http://pbs.twimg.com/media/Dr1sDMSVAAAyVO3.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Dr1sDMSVAAAyVO3.jpg",
+              "url": "https://t.co/aKNEIjXBoF",
+              "display_url": "pic.twitter.com/aKNEIjXBoF",
+              "expanded_url": "https://twitter.com/CrowdsourceJM/status/1062124728796758016/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 565,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 950,
+                  "h": 790,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 950,
+                  "h": 790,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 879485910106222600,
+          "id_str": "879485910106222592",
+          "name": "CrowdsourceJM",
+          "screen_name": "CrowdsourceJM",
+          "location": "Chicago, IL",
+          "description": "Interested in crowdsourced transcription and DH projects, digital collections news. Work at Newberry Library, all ideas and views personal.",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 234,
+          "friends_count": 699,
+          "listed_count": 4,
+          "created_at": "Mon Jun 26 23:45:55 +0000 2017",
+          "favourites_count": 1089,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 834,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/917421798966353920/gSibz3nn_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/917421798966353920/gSibz3nn_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/879485910106222592/1498522385",
+          "profile_link_color": "F58EA8",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Nov 12 23:27:23 +0000 2018",
+      "id": 1062124728796758000,
+      "id_str": "1062124728796758016",
+      "full_text": "\"perhaps unimaginable today—in the age of instantaneous and inexpensive  communication—is how popular and important postcards were at the turn of  the twentieth century.\" https://t.co/hPoYmx2EUA #LauderTuck https://t.co/aKNEIjXBoF",
+      "truncated": false,
+      "display_text_range": [
+        0,
+        206
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "text": "LauderTuck",
+            "indices": [
+              195,
+              206
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/hPoYmx2EUA",
+            "expanded_url": "https://hanahou.com/21.5/greetings-from-hawaii",
+            "display_url": "hanahou.com/21.5/greetings…",
+            "indices": [
+              171,
+              194
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1062123889222811600,
+            "id_str": "1062123889222811648",
+            "indices": [
+              207,
+              230
+            ],
+            "media_url": "http://pbs.twimg.com/media/Dr1sDMSVAAAyVO3.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Dr1sDMSVAAAyVO3.jpg",
+            "url": "https://t.co/aKNEIjXBoF",
+            "display_url": "pic.twitter.com/aKNEIjXBoF",
+            "expanded_url": "https://twitter.com/CrowdsourceJM/status/1062124728796758016/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 565,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 950,
+                "h": 790,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 950,
+                "h": 790,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1062123889222811600,
+            "id_str": "1062123889222811648",
+            "indices": [
+              207,
+              230
+            ],
+            "media_url": "http://pbs.twimg.com/media/Dr1sDMSVAAAyVO3.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Dr1sDMSVAAAyVO3.jpg",
+            "url": "https://t.co/aKNEIjXBoF",
+            "display_url": "pic.twitter.com/aKNEIjXBoF",
+            "expanded_url": "https://twitter.com/CrowdsourceJM/status/1062124728796758016/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 565,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 950,
+                "h": 790,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 950,
+                "h": 790,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 879485910106222600,
+        "id_str": "879485910106222592",
+        "name": "CrowdsourceJM",
+        "screen_name": "CrowdsourceJM",
+        "location": "Chicago, IL",
+        "description": "Interested in crowdsourced transcription and DH projects, digital collections news. Work at Newberry Library, all ideas and views personal.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 234,
+        "friends_count": 699,
+        "listed_count": 4,
+        "created_at": "Mon Jun 26 23:45:55 +0000 2017",
+        "favourites_count": 1089,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 834,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/917421798966353920/gSibz3nn_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/917421798966353920/gSibz3nn_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/879485910106222592/1498522385",
+        "profile_link_color": "F58EA8",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.027,
+    "max_id": 1062381961258418200,
+    "max_id_str": "1062381961258418177",
+    "query": "%23LauderTuck",
+    "refresh_url": "?since_id=1062381961258418177&q=%23LauderTuck&include_entities=1",
+    "count": 4,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}
