@@ -1,0 +1,29 @@
+.About {
+  background: rgb(214,232,242);
+  display:flex;
+}
+
+.Container {
+  max-width:75%;
+  margin:auto;
+}
+
+.About p {
+  font-size:1.5em;
+  line-height:1.5;
+  font-family: 'Special Elite', 'Georgia', serif;
+}
+
+@media only screen and (max-width: 500px) {
+	.About p {
+		font-size:1em;
+		line-height:1.2;
+	}
+	.About p strong {
+		font-size:1.5em !important;
+	}
+  .About iframe {
+    max-width:100%;
+    max-height:200px;
+  }
+}

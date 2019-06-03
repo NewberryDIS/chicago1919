@@ -1,0 +1,127 @@
+.Events {
+  display:flex;
+}
+
+.EventContainer {
+  margin:auto;
+  margin-top:50px;
+  width:75%;
+}
+
+.EventContainer h2, .EventContainer h3, .EventContainer h4 {
+  line-height:1;
+  text-transform:initial;
+}
+
+.EventFlex {
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:50px;
+}
+
+.TestBox {
+  flex-grow:0;
+  flex-shrink:1;
+  width:25vw;
+  height:25vw;
+}
+
+.EventThumb {
+  flex-grow:0;
+  flex-shrink:1;
+  width:25vw;
+  height:25vw;
+  position:relative;
+  background-size:cover;
+}
+
+.EventThumb a {
+  display:block;
+  height:100%;
+  width:100%;
+  background:rgba(0,0,0,0.5);
+  background-size:cover;
+  color:white;
+  text-transform:uppercase;
+  text-decoration:none;
+  position:relative;
+}
+
+.EventThumb h3, .EventThumb h4 {
+  text-shadow: 2px 2px 2px #020000
+}
+
+.EventThumb span {
+  display:block;
+  font-family: 'Special Elite', sans-serif;
+  font-size:1em;
+}
+
+.BgScreen {
+  height:100%;
+  width:100%;
+  background:rgba(0,0,0,0.5);
+  position:absolute;
+}
+
+.TextContainer {
+  position:absolute;
+  padding-top:20%;
+  left:0;
+  right:0;
+  margin:auto;
+  text-align:center;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.TextContainer h3 {
+  font-size:3em;
+}
+
+.TextContainer h4 {
+  font-size:1.5em;
+}
+
+.TextContainer h3, .TextContainer h4 {
+  margin-bottom:15px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .EventThumb {
+    height:250px;
+    width:250px;
+  }
+  .TextContainer h3 {
+    font-size:2em;
+  }
+  .TextContainer h4 {
+    font-size:1em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .EventFlex {
+    display:block;
+    margin-bottom:0;
+  }
+  .EventContainer {
+    margin-top:20px;
+  }
+  .EventContainer h2 {
+    font-size:2em !important;
+  }
+  .EventThumb {
+    margin:unset !important;
+    margin-bottom:20px !important;
+    height:200px;
+    width:100%;
+  }
+  .EventThumb span {
+    display:none;
+  }
+  .TextContainer {
+    line-height:1;
+    padding-top:15%;
+  }
+}

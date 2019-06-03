@@ -1,0 +1,74 @@
+.Banner {
+  background: rgb(214,232,242);
+  height:50px;
+}
+
+.Banner span {
+  font-family: 'Oswald', 'Century Gothic', sans-serif;
+}
+
+.Container {
+  width:75%;
+  margin:auto;
+  height:100%;
+  display:flex;
+}
+
+.Container .labelContainer {
+  flex:33.33%;
+  text-align:center;
+  font-size:22px;
+  position:relative;
+  font-family: 'Oswald', sans-serif;
+}
+
+.labelContainer span {
+  width: 100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.Container a {
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:bold;
+  color:rgb(117,117,117);
+}
+
+.Container a:hover {
+  color: rgb(160,160,160);
+}
+
+.activeLabel {
+  background: white !important;
+}
+
+@media only screen and (max-width: 930px) {
+  svg {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .labelContainer {
+    display:none;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .Banner {
+    position:fixed;
+    width:100%;
+    z-index:9999;
+  }
+  .Container {
+    width:unset;
+  }
+  .labelContainer {
+    display:none;
+  }
+}

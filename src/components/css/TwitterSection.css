@@ -1,0 +1,62 @@
+.TwitterSection {
+  background: rgb(214,232,242);
+  min-height:400px;
+  display:flex;
+}
+
+.TwitterContainer {
+  margin:auto;
+  margin-top:50px;
+  width:75%;
+}
+
+.TwitterFlex {
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:40px;
+}
+
+.Tweet {
+  float:left;
+  padding:20px;
+  border-radius:20px;
+  font-family: 'Georgia', sans-serif;
+  background:white;
+  margin:10px;
+  width:33%;
+}
+
+.Tweet a {
+  text-decoration:none;
+  color: rgb(15, 121, 180);
+}
+
+.Tweet a:hover {
+  text-decoration:underline;
+}
+
+.Tweet span {
+  display:block;
+  margin-bottom:10px;
+  font-family: 'Georgia', serif;
+}
+
+.Tweet img {
+  border-radius:20%;
+}
+
+@media only screen and (max-width: 500px) {
+  .TwitterContainer {
+    margin-top:20px;
+  }
+  .TwitterContainer h2 {
+    font-size:2em !important;
+  }
+  .TwitterFlex {
+    display:block;
+  }
+  .Tweet {
+    width:unset;
+    margin:10px 0;
+  }
+}

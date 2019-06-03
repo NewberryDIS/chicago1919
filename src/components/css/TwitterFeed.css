@@ -1,0 +1,43 @@
+.TwitterFeed {
+  background: rgba(214,232,242);
+  position:relative;
+  display:inline-block;
+  width:100%;
+}
+
+.TwitterFeed h3 {
+  padding-top:20px;
+  font-family: 'Cambria',serif;
+  font-size: 2em;
+}
+
+.Container {
+  max-width:75%;
+  margin:auto;
+}
+
+.Tweet {
+  float:left;
+  background: black;
+  padding:20px;
+  border-radius:20px;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.Tweet a {
+  text-decoration:none;
+  color: rgb(135, 208, 249);
+}
+
+.Tweet a:hover {
+  text-decoration:underline;
+}
+
+.Tweet span {
+  display:block;
+  margin-bottom:10px;
+}
+
+.Tweet img {
+  border-radius:20%;
+}

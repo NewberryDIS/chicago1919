@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Special+Elite|Oswald');
+
+.App {
+  background: rgb(239,246,250);
+  margin: 0px;
+  padding:0;
+  height:100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+span, p {
+  font-family: 'Cambria', serif;
+}
+
+.Body {
+  height:100%;
+}
