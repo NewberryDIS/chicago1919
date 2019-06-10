@@ -1,5 +1,632 @@
 var TWEETS = [
   {
+    "text": "Prof. @EToddBreland presents at #Chi1919 ! https://t.co/v3HASYO2YB",
+    "html_text": "Prof. <a class=\"user\" href=\"https://twitter.com/EToddBreland\">@EToddBreland</a> presents at <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> ! <a href=\"https://t.co/v3HASYO2YB\" target=\"_blank\">https://t.co/v3HASYO2YB</a>",
+    "date": "Mon Jun 03 01:39:40 +0000 2019",
+    "id": "1135360369206185984",
+    "user": {
+      "name": "UIC Dept of History",
+      "screen_name": "HistUIC",
+      "profile_img": "https://pbs.twimg.com/profile_images/1128306525246771200/ao_Kv2Y4_normal.png"
+    }
+  },
+  {
+    "text": "Exploring history of segregation in Chicago &amp; its schools, @EToddBreland unpacks nuance of seeking equalization vs. seeking desegregation, and implications for black communities &amp; schools. Part of Separate But Not Equal talk as part of #chi1919 https://t.co/So1lufqaip",
+    "html_text": "Exploring history of segregation in Chicago &amp; its schools, <a class=\"user\" href=\"https://twitter.com/EToddBreland\">@EToddBreland</a> unpacks nuance of seeking equalization vs. seeking desegregation, and implications for black communities &amp; schools. Part of Separate But Not Equal talk as part of <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> <a href=\"https://t.co/So1lufqaip\" target=\"_blank\">https://t.co/So1lufqaip</a>",
+    "date": "Sat Jun 01 18:30:10 +0000 2019",
+    "id": "1134889893610622978",
+    "user": {
+      "name": "Wayde Grinstead",
+      "screen_name": "waydegrins",
+      "profile_img": "https://pbs.twimg.com/profile_images/925568041341079553/ZrPMMfLi_normal.jpg"
+    }
+  },
+  {
+    "text": "70% of 2013 @ChiPubSchools closed schools had majority black students and majority black teachers. - @EToddBreland #chi1919 https://t.co/GknsulUfLr",
+    "html_text": "70% of 2013 <a class=\"user\" href=\"https://twitter.com/ChiPubSchools\">@ChiPubSchools</a> closed schools had majority black students and majority black teachers. - <a class=\"user\" href=\"https://twitter.com/EToddBreland\">@EToddBreland</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> <a href=\"https://t.co/GknsulUfLr\" target=\"_blank\">https://t.co/GknsulUfLr</a>",
+    "date": "Sat Jun 01 18:37:02 +0000 2019",
+    "id": "1134891622859268101",
+    "user": {
+      "name": "Wayde Grinstead",
+      "screen_name": "waydegrins",
+      "profile_img": "https://pbs.twimg.com/profile_images/925568041341079553/ZrPMMfLi_normal.jpg"
+    }
+  },
+  {
+    "text": "Jen Johnson of @CTULocal1 highlights: increasing lack of diversity in schools (esp. in selective enrollment); ways schools w/ majority black Ts/Ss were impacted by closings; and how non-black CPS students have decreasing access to black educators. #chi1919 https://t.co/PMcmNFhzek",
+    "html_text": "Jen Johnson of <a class=\"user\" href=\"https://twitter.com/CTULocal1\">@CTULocal1</a> highlights: increasing lack of diversity in schools (esp. in selective enrollment); ways schools w/ majority black Ts/Ss were impacted by closings; and how non-black CPS students have decreasing access to black educators. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> <a href=\"https://t.co/PMcmNFhzek\" target=\"_blank\">https://t.co/PMcmNFhzek</a>",
+    "date": "Sat Jun 01 18:45:39 +0000 2019",
+    "id": "1134893789078851585",
+    "user": {
+      "name": "Wayde Grinstead",
+      "screen_name": "waydegrins",
+      "profile_img": "https://pbs.twimg.com/profile_images/925568041341079553/ZrPMMfLi_normal.jpg"
+    }
+  },
+  {
+    "text": "“Exclusionary disciplinary policies are funneling students of color into the school-to-prison pipeline.” @jenj2399 on segregation &amp; public education. #Chi1919 https://t.co/BAm9gSIoxl",
+    "html_text": "“Exclusionary disciplinary policies are funneling students of color into the school-to-prison pipeline.” <a class=\"user\" href=\"https://twitter.com/jenj2399\">@jenj2399</a> on segregation &amp; public education. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/BAm9gSIoxl\" target=\"_blank\">https://t.co/BAm9gSIoxl</a>",
+    "date": "Sat Jun 01 18:46:08 +0000 2019",
+    "id": "1134893910113824768",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "Scholar @EToddBreland discusses the educational policies that exacerbated residential segregation in Chicago in the 20thC. #Chi1919 https://t.co/BAm9gSIoxl",
+    "html_text": "Scholar <a class=\"user\" href=\"https://twitter.com/EToddBreland\">@EToddBreland</a> discusses the educational policies that exacerbated residential segregation in Chicago in the 20thC. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/BAm9gSIoxl\" target=\"_blank\">https://t.co/BAm9gSIoxl</a>",
+    "date": "Sat Jun 01 18:23:33 +0000 2019",
+    "id": "1134888228576780288",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "Can’t make today’s #Chi1919 discussion at @chipublib on segregation + public education? Tune in for the live stream at 1pm (CT) on our Twitter feed. https://t.co/GxpGPtsFB3",
+    "html_text": "Can’t make today’s <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> discussion at <a class=\"user\" href=\"https://twitter.com/chipublib\">@chipublib</a> on segregation + public education? Tune in for the live stream at 1pm (CT) on our Twitter feed. <a href=\"https://t.co/GxpGPtsFB3\" target=\"_blank\">https://t.co/GxpGPtsFB3</a>",
+    "date": "Sat Jun 01 15:51:55 +0000 2019",
+    "id": "1134850068702478338",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "Today at 2:30PM: a FREE screening of award-winning @63Boycott as part of #Chi1919, a series of community conversations entitled 'Chicago 1919:  Confronting the Race Riots'. \n\nFilmmakers in-person! https://t.co/JpwCb3rYrT https://t.co/Od9MWrvrG8",
+    "html_text": "Today at 2:30PM: a FREE screening of award-winning <a class=\"user\" href=\"https://twitter.com/63Boycott\">@63Boycott</a> as part of <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a>, a series of community conversations entitled 'Chicago 1919:  Confronting the Race Riots'. \n\nFilmmakers in-person! <a href=\"https://t.co/JpwCb3rYrT\" target=\"_blank\">https://t.co/JpwCb3rYrT</a> <a href=\"https://t.co/Od9MWrvrG8\" target=\"_blank\">https://t.co/Od9MWrvrG8</a>",
+    "date": "Sat Jun 01 13:39:39 +0000 2019",
+    "id": "1134816783234412544",
+    "user": {
+      "name": "Kartemquin Films",
+      "screen_name": "Kartemquin",
+      "profile_img": "https://pbs.twimg.com/profile_images/1002300829313875968/cJGbavVS_normal.jpg"
+    }
+  },
+  {
+    "text": "Tmrw at 1pm: the #Chi1919 series continues w/ a 2-prt event exploring the legacy of the 1919 race riots through the lens of public education. At @chipublib, feat. @etoddbreland @jenj2399 @LieslMOlson @kartemquin @63Boycott. https://t.co/azzBt2wRKU",
+    "html_text": "Tmrw at 1pm: the <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> series continues w/ a 2-prt event exploring the legacy of the 1919 race riots through the lens of public education. At <a class=\"user\" href=\"https://twitter.com/chipublib\">@chipublib</a>, feat. <a class=\"user\" href=\"https://twitter.com/etoddbreland\">@etoddbreland</a> <a class=\"user\" href=\"https://twitter.com/jenj2399\">@jenj2399</a> <a class=\"user\" href=\"https://twitter.com/LieslMOlson\">@LieslMOlson</a> <a class=\"user\" href=\"https://twitter.com/kartemquin\">@kartemquin</a> <a class=\"user\" href=\"https://twitter.com/63Boycott\">@63Boycott</a>. <a href=\"https://t.co/azzBt2wRKU\" target=\"_blank\">https://t.co/azzBt2wRKU</a>",
+    "date": "Fri May 31 16:35:07 +0000 2019",
+    "id": "1134498551139110912",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "This Saturday: the #Chi1919 series continues w/ a 2-prt event exploring the legacy of the 1919 race riots through the lens of public education. At @chipublib, feat. @etoddbreland @jenj2399 @Kartemquin @63Boycott. https://t.co/azzBt2wRKU",
+    "html_text": "This Saturday: the <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> series continues w/ a 2-prt event exploring the legacy of the 1919 race riots through the lens of public education. At <a class=\"user\" href=\"https://twitter.com/chipublib\">@chipublib</a>, feat. <a class=\"user\" href=\"https://twitter.com/etoddbreland\">@etoddbreland</a> <a class=\"user\" href=\"https://twitter.com/jenj2399\">@jenj2399</a> <a class=\"user\" href=\"https://twitter.com/Kartemquin\">@Kartemquin</a> <a class=\"user\" href=\"https://twitter.com/63Boycott\">@63Boycott</a>. <a href=\"https://t.co/azzBt2wRKU\" target=\"_blank\">https://t.co/azzBt2wRKU</a>",
+    "date": "Thu May 30 20:02:08 +0000 2019",
+    "id": "1134188263298785281",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "Our #Chi1919 partners @city_bureau are re-imagining local news. Check out their next public workshop tomorrow. https://t.co/qGkEX4LbYj",
+    "html_text": "Our <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> partners <a class=\"user\" href=\"https://twitter.com/city\">@city</a>_bureau are re-imagining local news. Check out their next public workshop tomorrow. <a href=\"https://t.co/qGkEX4LbYj\" target=\"_blank\">https://t.co/qGkEX4LbYj</a>",
+    "date": "Wed May 29 14:28:38 +0000 2019",
+    "id": "1133741944566190081",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "This Saturday! @63Boycott screens as part of a FREE program with #Chi1919 @NewberryLibrary. \n\nLearn more and RSVP: https://t.co/DeHqMsfnEf",
+    "html_text": "This Saturday! <a class=\"user\" href=\"https://twitter.com/63Boycott\">@63Boycott</a> screens as part of a FREE program with <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a>. \n\nLearn more and RSVP: <a href=\"https://t.co/DeHqMsfnEf\" target=\"_blank\">https://t.co/DeHqMsfnEf</a>",
+    "date": "Mon May 27 14:01:46 +0000 2019",
+    "id": "1133010409433247749",
+    "user": {
+      "name": "Kartemquin Films",
+      "screen_name": "Kartemquin",
+      "profile_img": "https://pbs.twimg.com/profile_images/1002300829313875968/cJGbavVS_normal.jpg"
+    }
+  },
+  {
+    "text": "This year marks the 100 th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, https://t.co/lkSss5zGgs to learn more. #Chi1919 @NEHgov https://t.co/cPM2wDoMnv",
+    "html_text": "This year marks the 100 th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, <a href=\"https://t.co/lkSss5zGgs\" target=\"_blank\">https://t.co/lkSss5zGgs</a> to learn more. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a class=\"user\" href=\"https://twitter.com/NEHgov\">@NEHgov</a> <a href=\"https://t.co/cPM2wDoMnv\" target=\"_blank\">https://t.co/cPM2wDoMnv</a>",
+    "date": "Sat May 25 16:00:30 +0000 2019",
+    "id": "1132315511746965504",
+    "user": {
+      "name": "#LTAB19",
+      "screen_name": "YoungChiAuthors",
+      "profile_img": "https://pbs.twimg.com/profile_images/1068882375118069761/ryIKB8Ed_normal.jpg"
+    }
+  },
+  {
+    "text": "Had a great time talking about the #history of #ChicagoRaceRiot of #1919, its legacy in #Chicago and her research and writings on these important matters including how to use #publicart to promote radical change. Good luck with your capstone project, @notnyah! #chi1919",
+    "html_text": "Had a great time talking about the <a class=\"hashtag\" href=\"https://twitter.com/hashtag/history?f=tweets&vertical=default&src=hash\">#history</a> of <a class=\"hashtag\" href=\"https://twitter.com/hashtag/ChicagoRaceRiot?f=tweets&vertical=default&src=hash\">#ChicagoRaceRiot</a> of <a class=\"hashtag\" href=\"https://twitter.com/hashtag/1919?f=tweets&vertical=default&src=hash\">#1919</a>, its legacy in <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chicago?f=tweets&vertical=default&src=hash\">#Chicago</a> and her research and writings on these important matters including how to use <a class=\"hashtag\" href=\"https://twitter.com/hashtag/publicart?f=tweets&vertical=default&src=hash\">#publicart</a> to promote radical change. Good luck with your capstone project, <a class=\"user\" href=\"https://twitter.com/notnyah\">@notnyah</a>! <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>",
+    "date": "Fri May 24 17:20:26 +0000 2019",
+    "id": "1131973239985647624",
+    "user": {
+      "name": "Chicago Race Riot of 1919 Commemoration Project",
+      "screen_name": "ChicagoRaceRiot",
+      "profile_img": "https://pbs.twimg.com/profile_images/1061641528949452800/NAnRDyTm_normal.jpg"
+    }
+  },
+  {
+    "text": "Our \"Chicago 1919\" series continues June 1 w/ conversations on segregation + public education, as well as a screening of the @Kartemquin doc re the 1963 Chicago schools boycott. #Chi1919 https://t.co/8zm9MmujDW",
+    "html_text": "Our \"Chicago 1919\" series continues June 1 w/ conversations on segregation + public education, as well as a screening of the <a class=\"user\" href=\"https://twitter.com/Kartemquin\">@Kartemquin</a> doc re the 1963 Chicago schools boycott. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/8zm9MmujDW\" target=\"_blank\">https://t.co/8zm9MmujDW</a>",
+    "date": "Thu May 23 14:43:07 +0000 2019",
+    "id": "1131571262709555200",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "This year marks the 100 th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, https://t.co/lkSss5zGgs to learn more. #Chi1919 @NEHgov https://t.co/xP9oFJJ0dD",
+    "html_text": "This year marks the 100 th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, <a href=\"https://t.co/lkSss5zGgs\" target=\"_blank\">https://t.co/lkSss5zGgs</a> to learn more. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a class=\"user\" href=\"https://twitter.com/NEHgov\">@NEHgov</a> <a href=\"https://t.co/xP9oFJJ0dD\" target=\"_blank\">https://t.co/xP9oFJJ0dD</a>",
+    "date": "Fri May 10 22:00:12 +0000 2019",
+    "id": "1126970218570498048",
+    "user": {
+      "name": "#LTAB19",
+      "screen_name": "YoungChiAuthors",
+      "profile_img": "https://pbs.twimg.com/profile_images/1068882375118069761/ryIKB8Ed_normal.jpg"
+    }
+  },
+  {
+    "text": "Happy birthday to @ChiDefender which continues to report on vital matters to #Chicago's black community. Thanks to the interwebs, it no longer needs #Pullman porters to do so! Its coverage of #ChicagoRaceRiot remains a touchstone on the #history of 1919 and much more. #Chi1919 https://t.co/ZbUVNph3nC",
+    "html_text": "Happy birthday to <a class=\"user\" href=\"https://twitter.com/ChiDefender\">@ChiDefender</a> which continues to report on vital matters to <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chicago?f=tweets&vertical=default&src=hash\">#Chicago</a>'s black community. Thanks to the interwebs, it no longer needs <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Pullman?f=tweets&vertical=default&src=hash\">#Pullman</a> porters to do so! Its coverage of <a class=\"hashtag\" href=\"https://twitter.com/hashtag/ChicagoRaceRiot?f=tweets&vertical=default&src=hash\">#ChicagoRaceRiot</a> remains a touchstone on the <a class=\"hashtag\" href=\"https://twitter.com/hashtag/history?f=tweets&vertical=default&src=hash\">#history</a> of 1919 and much more. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/ZbUVNph3nC\" target=\"_blank\">https://t.co/ZbUVNph3nC</a>",
+    "date": "Sun May 05 14:20:05 +0000 2019",
+    "id": "1125042486982971393",
+    "user": {
+      "name": "Chicago Race Riot of 1919 Commemoration Project",
+      "screen_name": "ChicagoRaceRiot",
+      "profile_img": "https://pbs.twimg.com/profile_images/1061641528949452800/NAnRDyTm_normal.jpg"
+    }
+  },
+  {
+    "text": "The @NewberryLibrary's citywide programs are designed to inspire diverse communities to think about the city's history and the \"continued resonance\" of that violent week in 1919. #Chi1919 https://t.co/qhy73kSqJS",
+    "html_text": "The <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a>'s citywide programs are designed to inspire diverse communities to think about the city's history and the \"continued resonance\" of that violent week in 1919. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/qhy73kSqJS\" target=\"_blank\">https://t.co/qhy73kSqJS</a>",
+    "date": "Sat May 04 20:00:23 +0000 2019",
+    "id": "1124765735123857408",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "After @dbhunt’s presentation on migration &amp; housing, we’re now in groups sharing stories about moving and re-locating. #Chi1919 https://t.co/9SW4yxT9pJ",
+    "html_text": "After <a class=\"user\" href=\"https://twitter.com/dbhunt\">@dbhunt</a>’s presentation on migration &amp; housing, we’re now in groups sharing stories about moving and re-locating. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/9SW4yxT9pJ\" target=\"_blank\">https://t.co/9SW4yxT9pJ</a>",
+    "date": "Sat May 04 19:32:40 +0000 2019",
+    "id": "1124758761011404805",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "“Homeownership should be a right for everyone.” @DrTaneshaDHouse during the final session of today’s #Chi1919 conversation on housing, migration, &amp; race. https://t.co/UO7RsZTH2r",
+    "html_text": "“Homeownership should be a right for everyone.” <a class=\"user\" href=\"https://twitter.com/DrTaneshaDHouse\">@DrTaneshaDHouse</a> during the final session of today’s <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> conversation on housing, migration, &amp; race. <a href=\"https://t.co/UO7RsZTH2r\" target=\"_blank\">https://t.co/UO7RsZTH2r</a>",
+    "date": "Sat May 04 19:51:01 +0000 2019",
+    "id": "1124763377874743296",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "Attending the Migrations and Housing: A Century of Color Lines. Always learning...connecting...south side and west side shared stories..Dr. Tanesha House and Lee Bey. #chi1919 @ DRW… https://t.co/094StIvn7e",
+    "html_text": "Attending the Migrations and Housing: A Century of Color Lines. Always learning...connecting...south side and west side shared stories..Dr. Tanesha House and Lee Bey. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> @ DRW… <a href=\"https://t.co/094StIvn7e\" target=\"_blank\">https://t.co/094StIvn7e</a>",
+    "date": "Sat May 04 19:52:55 +0000 2019",
+    "id": "1124763859993210880",
+    "user": {
+      "name": "Vershawn SandersWard",
+      "screen_name": "vershawnsw",
+      "profile_img": "https://pbs.twimg.com/profile_images/1043706357608853505/VCdkUEGQ_normal.jpg"
+    }
+  },
+  {
+    "text": "Dr Tanesha House with Lee Bey, talking about housing, disinvestment, and rebuilding on the West Side of Chicago. #chi1919 @NewberryLibrary  @HomanSquare https://t.co/gstKu9giBN",
+    "html_text": "Dr Tanesha House with Lee Bey, talking about housing, disinvestment, and rebuilding on the West Side of Chicago. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a>  <a class=\"user\" href=\"https://twitter.com/HomanSquare\">@HomanSquare</a> <a href=\"https://t.co/gstKu9giBN\" target=\"_blank\">https://t.co/gstKu9giBN</a>",
+    "date": "Sat May 04 19:54:20 +0000 2019",
+    "id": "1124764216408399872",
+    "user": {
+      "name": "Karen Christianson",
+      "screen_name": "KACNewberry",
+      "profile_img": "https://pbs.twimg.com/profile_images/476720164168163328/MX3CB-hp_normal.jpeg"
+    }
+  },
+  {
+    "text": "In the early 1900s, Wentworth was known as a “deadline” for African Americans in Chicago. If they ventured west of Wentworth, they could be killed by whites. @NewberryLibrary #Chi1919",
+    "html_text": "In the early 1900s, Wentworth was known as a “deadline” for African Americans in Chicago. If they ventured west of Wentworth, they could be killed by whites. <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a>",
+    "date": "Sat May 04 18:33:36 +0000 2019",
+    "id": "1124743898071490560",
+    "user": {
+      "name": "julietd",
+      "screen_name": "julietd",
+      "profile_img": "https://pbs.twimg.com/profile_images/1028402410421723136/LSMCyPPW_normal.jpg"
+    }
+  },
+  {
+    "text": "Historian @dbhunt providing context for today’s conversation on housing, migration, &amp; race in Chicago. #Chi1919 https://t.co/KwLuIjZkQx",
+    "html_text": "Historian <a class=\"user\" href=\"https://twitter.com/dbhunt\">@dbhunt</a> providing context for today’s conversation on housing, migration, &amp; race in Chicago. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/KwLuIjZkQx\" target=\"_blank\">https://t.co/KwLuIjZkQx</a>",
+    "date": "Sat May 04 18:43:50 +0000 2019",
+    "id": "1124746473927794688",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "Attending the @NewberryLibrary’s latest event on #history of @ChicagoRaceRiot of 1919. They’re starting off with fascinating questions about audience knowledge and our experiences #chi1919 https://t.co/nqQ8zv0bMC",
+    "html_text": "Attending the <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a>’s latest event on <a class=\"hashtag\" href=\"https://twitter.com/hashtag/history?f=tweets&vertical=default&src=hash\">#history</a> of <a class=\"user\" href=\"https://twitter.com/ChicagoRaceRiot\">@ChicagoRaceRiot</a> of 1919. They’re starting off with fascinating questions about audience knowledge and our experiences <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> <a href=\"https://t.co/nqQ8zv0bMC\" target=\"_blank\">https://t.co/nqQ8zv0bMC</a>",
+    "date": "Sat May 04 18:21:25 +0000 2019",
+    "id": "1124740833335549952",
+    "user": {
+      "name": "Peter Cole",
+      "screen_name": "ProfPeterCole",
+      "profile_img": "https://pbs.twimg.com/profile_images/1112362116844007425/ggOxe0Do_normal.png"
+    }
+  },
+  {
+    "text": "Tune in at 1pm here on Twitter to watch the next event in our “Chicago 1919” conversation series. #Chi1919 https://t.co/T59oWKgfBX",
+    "html_text": "Tune in at 1pm here on Twitter to watch the next event in our “Chicago 1919” conversation series. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/T59oWKgfBX\" target=\"_blank\">https://t.co/T59oWKgfBX</a>",
+    "date": "Sat May 04 17:37:42 +0000 2019",
+    "id": "1124729829251854336",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "Ready for our #chi1919 event “Migration and Housing: a Century of Color Lines.” https://t.co/sdB2gFsXac",
+    "html_text": "Ready for our <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> event “Migration and Housing: a Century of Color Lines.” <a href=\"https://t.co/sdB2gFsXac\" target=\"_blank\">https://t.co/sdB2gFsXac</a>",
+    "date": "Sat May 04 17:40:47 +0000 2019",
+    "id": "1124730607215550464",
+    "user": {
+      "name": "Mary Hale",
+      "screen_name": "fay_hale",
+      "profile_img": "https://pbs.twimg.com/profile_images/1105581339791765504/wd5P5nI9_normal.jpg"
+    }
+  },
+  {
+    "text": "The @NewberryLibrary and community organizations are holding a year of conversations to reckon with the deadly race riots of 1919. #Chi1919 https://t.co/qhy73kSqJS https://t.co/FWSrj47mDm",
+    "html_text": "The <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a> and community organizations are holding a year of conversations to reckon with the deadly race riots of 1919. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/qhy73kSqJS\" target=\"_blank\">https://t.co/qhy73kSqJS</a> <a href=\"https://t.co/FWSrj47mDm\" target=\"_blank\">https://t.co/FWSrj47mDm</a>",
+    "date": "Fri May 03 21:16:01 +0000 2019",
+    "id": "1124422383098585089",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "The @NewberryLibrary's citywide programs are designed to inspire diverse communities to think about the city's history and the \"continued resonance\" of that violent week in 1919. #Chi1919 https://t.co/qhy73kSqJS",
+    "html_text": "The <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a>'s citywide programs are designed to inspire diverse communities to think about the city's history and the \"continued resonance\" of that violent week in 1919. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/qhy73kSqJS\" target=\"_blank\">https://t.co/qhy73kSqJS</a>",
+    "date": "Wed May 01 23:51:00 +0000 2019",
+    "id": "1123736610808520708",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "\"The more people understand the history, the more they'll know that Black people didn't have a choice. Racial covenants and redlining segregated the city.\" | @Calmetta Coleman #Chi1919 https://t.co/qhy73kSqJS",
+    "html_text": "\"The more people understand the history, the more they'll know that Black people didn't have a choice. Racial covenants and redlining segregated the city.\" | <a class=\"user\" href=\"https://twitter.com/Calmetta\">@Calmetta</a> Coleman <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/qhy73kSqJS\" target=\"_blank\">https://t.co/qhy73kSqJS</a>",
+    "date": "Wed May 01 14:33:00 +0000 2019",
+    "id": "1123596184545787904",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "The @NewberryLibrary and community organizations are holding a year of conversations to reckon with the deadly race riots of 1919. #Chi1919 https://t.co/qhy73kSqJS https://t.co/He7H1yAZHD",
+    "html_text": "The <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a> and community organizations are holding a year of conversations to reckon with the deadly race riots of 1919. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/qhy73kSqJS\" target=\"_blank\">https://t.co/qhy73kSqJS</a> <a href=\"https://t.co/He7H1yAZHD\" target=\"_blank\">https://t.co/He7H1yAZHD</a>",
+    "date": "Tue Apr 30 23:51:01 +0000 2019",
+    "id": "1123374228378673152",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "Before there was Trayvon Martin, Tamir Rice, and Laquan McDonald, there was 17-year-old Eugene Williams. #Chi1919 https://t.co/qhy73kSqJS",
+    "html_text": "Before there was Trayvon Martin, Tamir Rice, and Laquan McDonald, there was 17-year-old Eugene Williams. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/qhy73kSqJS\" target=\"_blank\">https://t.co/qhy73kSqJS</a>",
+    "date": "Tue Apr 30 20:14:00 +0000 2019",
+    "id": "1123319612995723265",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "Register for our next #Chi1919 event this Saturday, \"Migration and Housing: A Century of Color Lines\" w/ @LEEBEY, @dbhunt, &amp; @DrTaneshaDHouse. F-R-E-E to attend. https://t.co/UFAwqCWVhQ",
+    "html_text": "Register for our next <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> event this Saturday, \"Migration and Housing: A Century of Color Lines\" w/ <a class=\"user\" href=\"https://twitter.com/LEEBEY\">@LEEBEY</a>, <a class=\"user\" href=\"https://twitter.com/dbhunt\">@dbhunt</a>, &amp; <a class=\"user\" href=\"https://twitter.com/DrTaneshaDHouse\">@DrTaneshaDHouse</a>. F-R-E-E to attend. <a href=\"https://t.co/UFAwqCWVhQ\" target=\"_blank\">https://t.co/UFAwqCWVhQ</a>",
+    "date": "Tue Apr 30 17:15:39 +0000 2019",
+    "id": "1123274727185899521",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "\"Reporting Race\" was one of the events in the @NewberryLibrary's year-long #Chi1919 series of community conversations examining the legacy of the 1919 race riots. https://t.co/jUIhH42n1w",
+    "html_text": "\"Reporting Race\" was one of the events in the <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a>'s year-long <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> series of community conversations examining the legacy of the 1919 race riots. <a href=\"https://t.co/jUIhH42n1w\" target=\"_blank\">https://t.co/jUIhH42n1w</a>",
+    "date": "Mon Apr 29 21:47:01 +0000 2019",
+    "id": "1122980630852263936",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": ".@ProfPeterCole: Chicago has done nothing to recognize or own its history of the 1919 race riots. #chi1919",
+    "html_text": ".<a class=\"user\" href=\"https://twitter.com/ProfPeterCole\">@ProfPeterCole</a>: Chicago has done nothing to recognize or own its history of the 1919 race riots. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>",
+    "date": "Mon Apr 29 19:01:24 +0000 2019",
+    "id": "1122938955903721477",
+    "user": {
+      "name": "Suzanne McBride",
+      "screen_name": "sgmcbride",
+      "profile_img": "https://pbs.twimg.com/profile_images/1004526880567934981/fLUPQXgt_normal.jpg"
+    }
+  },
+  {
+    "text": "The @NewberryLibrary has organized a year of events to commemorate the 1919 race riots: https://t.co/hh8sTdWyhS #chi1919",
+    "html_text": "The <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a> has organized a year of events to commemorate the 1919 race riots: <a href=\"https://t.co/hh8sTdWyhS\" target=\"_blank\">https://t.co/hh8sTdWyhS</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>",
+    "date": "Mon Apr 29 19:06:51 +0000 2019",
+    "id": "1122940323741806592",
+    "user": {
+      "name": "Suzanne McBride",
+      "screen_name": "sgmcbride",
+      "profile_img": "https://pbs.twimg.com/profile_images/1004526880567934981/fLUPQXgt_normal.jpg"
+    }
+  },
+  {
+    "text": "Germany is doing a much better job of owning its horrible history, says @ProfPeterCole, who notes there is a monument in the heart of Berlin to murdered Jews. Yet there's nothing recognizing 240 years of slavery and 100 years of segregation in our nation's capitol. #chi1919",
+    "html_text": "Germany is doing a much better job of owning its horrible history, says <a class=\"user\" href=\"https://twitter.com/ProfPeterCole\">@ProfPeterCole</a>, who notes there is a monument in the heart of Berlin to murdered Jews. Yet there's nothing recognizing 240 years of slavery and 100 years of segregation in our nation's capitol. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>",
+    "date": "Mon Apr 29 19:09:59 +0000 2019",
+    "id": "1122941115429216256",
+    "user": {
+      "name": "Suzanne McBride",
+      "screen_name": "sgmcbride",
+      "profile_img": "https://pbs.twimg.com/profile_images/1004526880567934981/fLUPQXgt_normal.jpg"
+    }
+  },
+  {
+    "text": "So what can we do to commemorate the 1919 race riots, asks @ProfPeterCole? He wants to produce public art throughout Chicago - like this: https://t.co/gY8tgzWU4Y  \nOfficial launch of the project will be on the 100th anniversary, at 11 a.m. July 27 in Bronzeville. #chi1919",
+    "html_text": "So what can we do to commemorate the 1919 race riots, asks <a class=\"user\" href=\"https://twitter.com/ProfPeterCole\">@ProfPeterCole</a>? He wants to produce public art throughout Chicago - like this: <a href=\"https://t.co/gY8tgzWU4Y\" target=\"_blank\">https://t.co/gY8tgzWU4Y</a>  \nOfficial launch of the project will be on the 100th anniversary, at 11 a.m. July 27 in Bronzeville. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>",
+    "date": "Mon Apr 29 19:14:03 +0000 2019",
+    "id": "1122942137635569664",
+    "user": {
+      "name": "Suzanne McBride",
+      "screen_name": "sgmcbride",
+      "profile_img": "https://pbs.twimg.com/profile_images/1004526880567934981/fLUPQXgt_normal.jpg"
+    }
+  },
+  {
+    "text": "We need to all know who Eugene Williams was - the first African American  killed in July 27, 1919, the start of the 1919 Chicago race riots. #chi1919",
+    "html_text": "We need to all know who Eugene Williams was - the first African American  killed in July 27, 1919, the start of the 1919 Chicago race riots. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>",
+    "date": "Mon Apr 29 18:53:44 +0000 2019",
+    "id": "1122937023948623874",
+    "user": {
+      "name": "Suzanne McBride",
+      "screen_name": "sgmcbride",
+      "profile_img": "https://pbs.twimg.com/profile_images/1004526880567934981/fLUPQXgt_normal.jpg"
+    }
+  },
+  {
+    "text": "A 819-page study - https://t.co/WOgL76bIT2 … - was published after the 1919 Chicago race riots; its many recommendations were ignored, says @ProfPeterCole. #chi1919",
+    "html_text": "A 819-page study - <a href=\"https://t.co/WOgL76bIT2\" target=\"_blank\">https://t.co/WOgL76bIT2</a> … - was published after the 1919 Chicago race riots; its many recommendations were ignored, says <a class=\"user\" href=\"https://twitter.com/ProfPeterCole\">@ProfPeterCole</a>. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>",
+    "date": "Mon Apr 29 18:59:05 +0000 2019",
+    "id": "1122938369837867008",
+    "user": {
+      "name": "Suzanne McBride",
+      "screen_name": "sgmcbride",
+      "profile_img": "https://pbs.twimg.com/profile_images/1004526880567934981/fLUPQXgt_normal.jpg"
+    }
+  },
+  {
+    "text": "If you're in #Chicago's Loop on Monday afternoon, please join @ProfPeterCole, CRR19 project director, as he discussed the #ChicagoRaceRiot of 1919 and how #publicart, inspired by @_Stolpersteine_, can contribute to healing centuries of #racist #violence. @ColumbiaChi #chi1919 https://t.co/bgINbxUh9m",
+    "html_text": "If you're in <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chicago?f=tweets&vertical=default&src=hash\">#Chicago</a>'s Loop on Monday afternoon, please join <a class=\"user\" href=\"https://twitter.com/ProfPeterCole\">@ProfPeterCole</a>, CRR19 project director, as he discussed the <a class=\"hashtag\" href=\"https://twitter.com/hashtag/ChicagoRaceRiot?f=tweets&vertical=default&src=hash\">#ChicagoRaceRiot</a> of 1919 and how <a class=\"hashtag\" href=\"https://twitter.com/hashtag/publicart?f=tweets&vertical=default&src=hash\">#publicart</a>, inspired by @_Stolpersteine_, can contribute to healing centuries of <a class=\"hashtag\" href=\"https://twitter.com/hashtag/racist?f=tweets&vertical=default&src=hash\">#racist</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/violence?f=tweets&vertical=default&src=hash\">#violence</a>. <a class=\"user\" href=\"https://twitter.com/ColumbiaChi\">@ColumbiaChi</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> <a href=\"https://t.co/bgINbxUh9m\" target=\"_blank\">https://t.co/bgINbxUh9m</a>",
+    "date": "Sun Apr 28 17:33:06 +0000 2019",
+    "id": "1122554344266711041",
+    "user": {
+      "name": "Chicago Race Riot of 1919 Commemoration Project",
+      "screen_name": "ChicagoRaceRiot",
+      "profile_img": "https://pbs.twimg.com/profile_images/1061641528949452800/NAnRDyTm_normal.jpg"
+    }
+  },
+  {
+    "text": "As much as we love the brass used in @_Stolpersteine_, #Chicago #winters are long + fierce. We haven't hired an artist, yet, nor decided upon materials to mark the 38 locations where people were killed in #ChicagoRaceRiot of 1919. But we'll definitely consider steel! #Chi1919 https://t.co/VDtK5goiAQ",
+    "html_text": "As much as we love the brass used in @_Stolpersteine_, <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chicago?f=tweets&vertical=default&src=hash\">#Chicago</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/winters?f=tweets&vertical=default&src=hash\">#winters</a> are long + fierce. We haven't hired an artist, yet, nor decided upon materials to mark the 38 locations where people were killed in <a class=\"hashtag\" href=\"https://twitter.com/hashtag/ChicagoRaceRiot?f=tweets&vertical=default&src=hash\">#ChicagoRaceRiot</a> of 1919. But we'll definitely consider steel! <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/VDtK5goiAQ\" target=\"_blank\">https://t.co/VDtK5goiAQ</a>",
+    "date": "Sat Apr 27 22:14:56 +0000 2019",
+    "id": "1122262881070997505",
+    "user": {
+      "name": "Chicago Race Riot of 1919 Commemoration Project",
+      "screen_name": "ChicagoRaceRiot",
+      "profile_img": "https://pbs.twimg.com/profile_images/1061641528949452800/NAnRDyTm_normal.jpg"
+    }
+  },
+  {
+    "text": "What lessons from how the media covered the Chicago race riots of 1919 can be brought into present day? #Chi1919 #comics https://t.co/jUIhH42n1w",
+    "html_text": "What lessons from how the media covered the Chicago race riots of 1919 can be brought into present day? <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/comics?f=tweets&vertical=default&src=hash\">#comics</a> <a href=\"https://t.co/jUIhH42n1w\" target=\"_blank\">https://t.co/jUIhH42n1w</a>",
+    "date": "Sat Apr 27 17:00:29 +0000 2019",
+    "id": "1122183748471095298",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "Right now @ClaireHartfield is giving a great talk about #Chicago and its #History as it relates to the #ChicagoRaceRiot of 1919. #chi1919 https://t.co/8DU8b0qEwH",
+    "html_text": "Right now <a class=\"user\" href=\"https://twitter.com/ClaireHartfield\">@ClaireHartfield</a> is giving a great talk about <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chicago?f=tweets&vertical=default&src=hash\">#Chicago</a> and its <a class=\"hashtag\" href=\"https://twitter.com/hashtag/History?f=tweets&vertical=default&src=hash\">#History</a> as it relates to the <a class=\"hashtag\" href=\"https://twitter.com/hashtag/ChicagoRaceRiot?f=tweets&vertical=default&src=hash\">#ChicagoRaceRiot</a> of 1919. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> <a href=\"https://t.co/8DU8b0qEwH\" target=\"_blank\">https://t.co/8DU8b0qEwH</a>",
+    "date": "Fri Apr 26 22:28:17 +0000 2019",
+    "id": "1121903854826741761",
+    "user": {
+      "name": "Peter Cole",
+      "screen_name": "ProfPeterCole",
+      "profile_img": "https://pbs.twimg.com/profile_images/1112362116844007425/ggOxe0Do_normal.png"
+    }
+  },
+  {
+    "text": "This year marks the 100 th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, https://t.co/lkSss5zGgs to learn more. #Chi1919 @NEHgov https://t.co/wo4yDpxNLx",
+    "html_text": "This year marks the 100 th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, <a href=\"https://t.co/lkSss5zGgs\" target=\"_blank\">https://t.co/lkSss5zGgs</a> to learn more. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a class=\"user\" href=\"https://twitter.com/NEHgov\">@NEHgov</a> <a href=\"https://t.co/wo4yDpxNLx\" target=\"_blank\">https://t.co/wo4yDpxNLx</a>",
+    "date": "Fri Apr 26 20:33:12 +0000 2019",
+    "id": "1121874891643420672",
+    "user": {
+      "name": "#LTAB19",
+      "screen_name": "YoungChiAuthors",
+      "profile_img": "https://pbs.twimg.com/profile_images/1068882375118069761/ryIKB8Ed_normal.jpg"
+    }
+  },
+  {
+    "text": "What lessons can we take from 1919 into present day reporting? #Chi1919 https://t.co/jUIhH42n1w",
+    "html_text": "What lessons can we take from 1919 into present day reporting? <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/jUIhH42n1w\" target=\"_blank\">https://t.co/jUIhH42n1w</a>",
+    "date": "Thu Apr 25 21:47:00 +0000 2019",
+    "id": "1121531079184326656",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "Incomplete. Biased. Racist. Trash. These are words used to describe local, present-day reporting as it relates to race. #Chi1919 https://t.co/jUIhH42n1w",
+    "html_text": "Incomplete. Biased. Racist. Trash. These are words used to describe local, present-day reporting as it relates to race. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/jUIhH42n1w\" target=\"_blank\">https://t.co/jUIhH42n1w</a>",
+    "date": "Wed Apr 24 18:10:00 +0000 2019",
+    "id": "1121114080574627841",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "In 1919 a lot of publications would take sides along racial lines. What does that look like today? #Chi1919 https://t.co/jUIhH42n1w",
+    "html_text": "In 1919 a lot of publications would take sides along racial lines. What does that look like today? <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a href=\"https://t.co/jUIhH42n1w\" target=\"_blank\">https://t.co/jUIhH42n1w</a>",
+    "date": "Tue Apr 23 14:34:25 +0000 2019",
+    "id": "1120697438447255553",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "\"To expect every newspaper to be everything to everyone I think is a mistake. We should go to different cultures and different communities and hear their voices from their points of view.\" | #Chi1919  https://t.co/jUIhH42n1w",
+    "html_text": "\"To expect every newspaper to be everything to everyone I think is a mistake. We should go to different cultures and different communities and hear their voices from their points of view.\" | <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a>  <a href=\"https://t.co/jUIhH42n1w\" target=\"_blank\">https://t.co/jUIhH42n1w</a>",
+    "date": "Mon Apr 22 22:18:00 +0000 2019",
+    "id": "1120451715340361729",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "Re: race and news reporting...people know what’s up—Now in a @Chicago_Reader comic by @anyapdavidson from @city_bureau's #Chi1919 #PublicNewsroom https://t.co/SQNbNGzg9f https://t.co/Vyd3eywedo",
+    "html_text": "Re: race and news reporting...people know what’s up—Now in a <a class=\"user\" href=\"https://twitter.com/Chicago\">@Chicago</a>_Reader comic by <a class=\"user\" href=\"https://twitter.com/anyapdavidson\">@anyapdavidson</a> from <a class=\"user\" href=\"https://twitter.com/city\">@city</a>_bureau's <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/PublicNewsroom?f=tweets&vertical=default&src=hash\">#PublicNewsroom</a> <a href=\"https://t.co/SQNbNGzg9f\" target=\"_blank\">https://t.co/SQNbNGzg9f</a> <a href=\"https://t.co/Vyd3eywedo\" target=\"_blank\">https://t.co/Vyd3eywedo</a>",
+    "date": "Mon Apr 22 21:18:25 +0000 2019",
+    "id": "1120436720510603266",
+    "user": {
+      "name": "Darryl Holliday",
+      "screen_name": "d_holli",
+      "profile_img": "https://pbs.twimg.com/profile_images/746451947016753152/5d6of0H__normal.jpg"
+    }
+  },
+  {
+    "text": "If you missed the last #Chi1919 event on 4/4, @anyapdavidson has you covered.\n\nCheck out this cartoon (via @Chicago_Reader) documenting the event, hosted by the amazing @city_bureau &amp; featuring discussion abt representations of race in the media. https://t.co/Ziks3izXQA",
+    "html_text": "If you missed the last <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> event on 4/4, <a class=\"user\" href=\"https://twitter.com/anyapdavidson\">@anyapdavidson</a> has you covered.\n\nCheck out this cartoon (via <a class=\"user\" href=\"https://twitter.com/Chicago\">@Chicago</a>_Reader) documenting the event, hosted by the amazing <a class=\"user\" href=\"https://twitter.com/city\">@city</a>_bureau &amp; featuring discussion abt representations of race in the media. <a href=\"https://t.co/Ziks3izXQA\" target=\"_blank\">https://t.co/Ziks3izXQA</a>",
+    "date": "Mon Apr 22 16:41:37 +0000 2019",
+    "id": "1120367059697897472",
+    "user": {
+      "name": "Newberry Library",
+      "screen_name": "NewberryLibrary",
+      "profile_img": "https://pbs.twimg.com/profile_images/905477314993168384/8yoSJ2wo_normal.jpg"
+    }
+  },
+  {
+    "text": "What lessons from how the media covered the Chicago race riots of 1919 into present day? #Chi1919 #comics https://t.co/jUIhH42n1w",
+    "html_text": "What lessons from how the media covered the Chicago race riots of 1919 into present day? <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/comics?f=tweets&vertical=default&src=hash\">#comics</a> <a href=\"https://t.co/jUIhH42n1w\" target=\"_blank\">https://t.co/jUIhH42n1w</a>",
+    "date": "Mon Apr 22 13:31:01 +0000 2019",
+    "id": "1120319096061558784",
+    "user": {
+      "name": "Chicago Reader",
+      "screen_name": "Chicago_Reader",
+      "profile_img": "https://pbs.twimg.com/profile_images/880498772505223168/eUC2vSd0_normal.jpg"
+    }
+  },
+  {
+    "text": "Join @NewberryLibrary on 5/4 for an event delving into the history of #housing and race in #Chicago and reflecting on our city's current divides. https://t.co/OjPuTlcPWi @dbhunt @LEEBEY #segregation #chi1919",
+    "html_text": "Join <a class=\"user\" href=\"https://twitter.com/NewberryLibrary\">@NewberryLibrary</a> on 5/4 for an event delving into the history of <a class=\"hashtag\" href=\"https://twitter.com/hashtag/housing?f=tweets&vertical=default&src=hash\">#housing</a> and race in <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chicago?f=tweets&vertical=default&src=hash\">#Chicago</a> and reflecting on our city's current divides. <a href=\"https://t.co/OjPuTlcPWi\" target=\"_blank\">https://t.co/OjPuTlcPWi</a> <a class=\"user\" href=\"https://twitter.com/dbhunt\">@dbhunt</a> <a class=\"user\" href=\"https://twitter.com/LEEBEY\">@LEEBEY</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/segregation?f=tweets&vertical=default&src=hash\">#segregation</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>",
+    "date": "Wed Apr 17 19:19:00 +0000 2019",
+    "id": "1118594727861870597",
+    "user": {
+      "name": "Chicago Impact Network",
+      "screen_name": "chimpactnetwork",
+      "profile_img": "https://pbs.twimg.com/profile_images/979829258355986433/JD50-rYj_normal.jpg"
+    }
+  },
+  {
+    "text": "This year marks the 100th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, https://t.co/lkSss5zGgs to learn more. #Chi1919 @NEHgov https://t.co/MA9feJiEIj",
+    "html_text": "This year marks the 100th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, <a href=\"https://t.co/lkSss5zGgs\" target=\"_blank\">https://t.co/lkSss5zGgs</a> to learn more. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a class=\"user\" href=\"https://twitter.com/NEHgov\">@NEHgov</a> <a href=\"https://t.co/MA9feJiEIj\" target=\"_blank\">https://t.co/MA9feJiEIj</a>",
+    "date": "Tue Apr 16 15:17:36 +0000 2019",
+    "id": "1118171590146105351",
+    "user": {
+      "name": "#LTAB19",
+      "screen_name": "YoungChiAuthors",
+      "profile_img": "https://pbs.twimg.com/profile_images/1068882375118069761/ryIKB8Ed_normal.jpg"
+    }
+  },
+  {
+    "text": "Heads up to folks connected to @NorthwesternU in #Evanston #Illinois, the one and only @eveewing will be speaking tomorrow! We couldn't recommend her talks highly enough! #Chicago #history #chi1919  https://t.co/OPZR9mTwvI",
+    "html_text": "Heads up to folks connected to <a class=\"user\" href=\"https://twitter.com/NorthwesternU\">@NorthwesternU</a> in <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Evanston?f=tweets&vertical=default&src=hash\">#Evanston</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Illinois?f=tweets&vertical=default&src=hash\">#Illinois</a>, the one and only <a class=\"user\" href=\"https://twitter.com/eveewing\">@eveewing</a> will be speaking tomorrow! We couldn't recommend her talks highly enough! <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chicago?f=tweets&vertical=default&src=hash\">#Chicago</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/history?f=tweets&vertical=default&src=hash\">#history</a> <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>  <a href=\"https://t.co/OPZR9mTwvI\" target=\"_blank\">https://t.co/OPZR9mTwvI</a>",
+    "date": "Mon Apr 15 18:25:23 +0000 2019",
+    "id": "1117856458496987138",
+    "user": {
+      "name": "Chicago Race Riot of 1919 Commemoration Project",
+      "screen_name": "ChicagoRaceRiot",
+      "profile_img": "https://pbs.twimg.com/profile_images/1061641528949452800/NAnRDyTm_normal.jpg"
+    }
+  },
+  {
+    "text": "I’m real excited to speak with you folks about @ChicagoRaceRiot project! 🙏 for the opportunity #chi1919 https://t.co/TGW8rhA7VP",
+    "html_text": "I’m real excited to speak with you folks about <a class=\"user\" href=\"https://twitter.com/ChicagoRaceRiot\">@ChicagoRaceRiot</a> project! 🙏 for the opportunity <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a> <a href=\"https://t.co/TGW8rhA7VP\" target=\"_blank\">https://t.co/TGW8rhA7VP</a>",
+    "date": "Thu Apr 11 22:51:08 +0000 2019",
+    "id": "1116473786369495046",
+    "user": {
+      "name": "Peter Cole",
+      "screen_name": "ProfPeterCole",
+      "profile_img": "https://pbs.twimg.com/profile_images/1112362116844007425/ggOxe0Do_normal.png"
+    }
+  },
+  {
+    "text": "This year marks the 100 th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, https://t.co/lkSss5zGgs to learn more. #Chi1919 @NEHgov https://t.co/jgePPUrQwO",
+    "html_text": "This year marks the 100 th anniversary of the 1919 Chicago race riots, the most violent week in Chicago history. We're part of a yr-long initiative to confront the riots’ legacy through community conversations. \n\nVisit, <a href=\"https://t.co/lkSss5zGgs\" target=\"_blank\">https://t.co/lkSss5zGgs</a> to learn more. <a class=\"hashtag\" href=\"https://twitter.com/hashtag/Chi1919?f=tweets&vertical=default&src=hash\">#Chi1919</a> <a class=\"user\" href=\"https://twitter.com/NEHgov\">@NEHgov</a> <a href=\"https://t.co/jgePPUrQwO\" target=\"_blank\">https://t.co/jgePPUrQwO</a>",
+    "date": "Thu Apr 11 21:01:06 +0000 2019",
+    "id": "1116446095855497217",
+    "user": {
+      "name": "#LTAB19",
+      "screen_name": "YoungChiAuthors",
+      "profile_img": "https://pbs.twimg.com/profile_images/1068882375118069761/ryIKB8Ed_normal.jpg"
+    }
+  },
+  {
     "text": "@d_holli Would love to know if there is a recording of your event about #chi1919. We are about to do a unit of study with our @NTAStudents1 4th graders and would love to be able to teach the parrallels you mentioned in reporting.",
     "html_text": "<a class=\"user\" href=\"https://twitter.com/d\">@d</a>_holli Would love to know if there is a recording of your event about <a class=\"hashtag\" href=\"https://twitter.com/hashtag/chi1919?f=tweets&vertical=default&src=hash\">#chi1919</a>. We are about to do a unit of study with our <a class=\"user\" href=\"https://twitter.com/NTAStudents1\">@NTAStudents1</a> 4th graders and would love to be able to teach the parrallels you mentioned in reporting.",
     "date": "Sun Apr 07 19:37:49 +0000 2019",

@@ -1,9 +1,12 @@
 URL [https://api.twitter.com/1.1/search/tweets.json?q=%23chi1919%20exclude%3Aretweets&count=4&tweet_mode=extended]
 success
-[]
-[ { url: 'https://t.co/QBuDaFvzEA',
-    expanded_url: 'https://www.ethicalhuman.org/index.php/programs/14-speakers/231-petercole#.XKoCK6oK2UQ.twitter',
-    display_url: 'ethicalhuman.org/index.php/prog…',
-    indices: [ 233, 256 ] } ]
+[ { url: 'https://t.co/v3HASYO2YB',
+    expanded_url: 'https://twitter.com/waydegrins/status/1134889893610622978',
+    display_url: 'twitter.com/waydegrins/sta…',
+    indices: [ 43, 66 ] } ]
+[ { url: 'https://t.co/BAm9gSIoxl',
+    expanded_url: 'http://bit.ly/2wD79Nj',
+    display_url: 'bit.ly/2wD79Nj',
+    indices: [ 163, 186 ] } ]
 []
 []
