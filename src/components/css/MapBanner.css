@@ -1,0 +1,14 @@
+.Container {
+    width:65%;
+    margin:auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background-color: #fff; */
+}
+.Container a {
+    color: #000;
+    text-decoration: none;
+}
+.Container a:hover {
+    color: rgb(127,127,127);
+}

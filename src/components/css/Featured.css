@@ -39,12 +39,13 @@
   font-size: 2em;
 }
 
-.RightContainer h3 a {
+.RightContainer a {
   color:black;
   font-weight:bold;
+  text-decoration: none;
 }
 
-.RightContainer h3 a:hover {
+.RightContainer  a:hover {
   color: rgb(127,127,127);
 }
 
@@ -52,7 +53,7 @@
   font-family: 'Georgia', serif;
   display:block;
   margin:20px 0;
-  font-size:1.2em;
+  font-size:1.35rem;
 }
 
 .FeaturedImage {

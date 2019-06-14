@@ -13,7 +13,6 @@ class Featured extends Component {
           <div className={style.FeaturedFlex}>
             <div className={style.LeftContainer}>
               <a className={style.FeaturedImage} href={data.link} target="_blank">
-                {/* <iframe className={style.FeaturedImage} src="https://uchicago.maps.arcgis.com/apps/webappviewer/index.html?id=64e5689e591d465ea783d8730fef17d4" style={{width: '100%', height: '100%'}} /> */}
                 <img src={featuredImage} style={{width: '100%'}} />
               </a>
             </div>
