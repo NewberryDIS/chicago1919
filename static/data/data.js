@@ -16,30 +16,80 @@ var DATA = {
             "subtitle": "Separate & Not Equal in 20th Century Chicago",
             "date": "June 1",
             "weekday": "Saturday",
-            "time": "1:00-2:15 pm",
+            "time": "1:00 - 2:15 pm",
             "location": "Harold Washington Library, Pritzker Auditorium",
             "img": "Boycotts_HD-1HR_0314_cropped.jpg",
-            "link": ".\/segregation-and-education"
+            "link": "segregation-and-education"
         },
         {
             "title": "'63 Boycott",
             "subtitle": "Film Screening and Discussion",
             "weekday": "Saturday",
             "date": "June 1",
-            "time": "2:30-4 p.m.",
+            "time": "2:30 - 4 p.m.",
             "location": "Harold Washington Library, Pritzker Auditorium",
             "img": "06-01-Boycotts_-Hero-3-HD-1HR_0280-cropped.jpg",
-            "link": ".\/63-boycott"
+            "link": "63-boycott"
         },
         {
             "title": "Bike Tour",
             "subtitle": " Visualizing the 1919 Riots in Today\u2019s Chicago",
             "weekday": "Saturday",
             "date": "June 29",
-            "time": "10:00-1:00 pm",
-            "location": "Ride starts at 31st Street Beach, Chicago, IL 60616",
+            "time": "10:00 - 1:00 pm",
+            "location": "Ride starts at 31st Street Beach",
             "img": "Blackstone-Bicyle-Works_C9-llgPXUAA9YsH.jpg",
-            "link": ".\/bike-tour"
+            "link": "bike-tour"
+        },
+        {
+            "title": "Legacies of 1919",
+            "subtitle": "The Bughouse Square Debates",
+            "weekday": "Saturday",
+            "date": "July 27",
+            "time": "12:00 - 4:00 p.m.",
+            "location": "Washington Square Park",
+            "img": "",
+            "link": "bughouse-square"
+        },
+        { 
+            "title": "Reflections of Youth",
+            "subtitle": "Spoken Word Performance and Conversation",
+            "weekday": "Monday",
+            "date": "August 12",
+            "time": "6:00 - 8:00 p.m.",
+            "location": "Harold Washington Library, Pritzker Auditorium",
+            "img": "",
+            "link": "reflections-of-youth"
+        },
+        {
+            "title": "The Language of Bronzeville",
+            "subtitle":"Literature and Race in Chicago",
+            "weekday": "Tuesday",
+            "date": "September 24",
+            "time": "6:00 7:30 p.m.",
+            "location": "Newberry Library",
+            "img": "",
+            "link": "literature-and-race"
+        },
+        {
+            "title": "Policing Racial Violence",
+            "subtitle":"1919 and Beyond",
+            "weekday": "Tuesday",
+            "date": "October 15",
+            "time": "7:00 - 8:30 p.m.",
+            "location": "Chicago History Museum",
+            "img": "",
+            "link": "policing-racial-violence"
+        },
+        {
+            "title": "\"Red Summer / Winter Blues\"",
+            "subtitle":"A film screening and discussion",
+            "weekday": "Thursday",
+            "date": "November 14",
+            "time": "6:00 - 8:00 p.m.",
+            "location": "DuSable Museum of African American History",
+            "img": "",
+            "link": "red-summer-winter-blues"
         }
     ],
     "about": {

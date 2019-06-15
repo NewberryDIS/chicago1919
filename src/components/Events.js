@@ -9,10 +9,16 @@ class Events extends Component {
   render() {
     configureAnchors({scrollDuration: 1000})
     const eventsData = window.DATA.events
+    let count = 0
     const events = eventsData.map((d, i) => {
-      return (
-        <EventThumb data={d} key={i} index={i} />
-      )
+      const eventDate = new Date(d.date + ', 2019 ' + d.time.substr(0, d.time.indexOf(' ')) + ' pm')
+      const currDate = new Date()
+      if (eventDate > currDate && count < 3) {
+        count++
+        return (
+            <EventThumb data={d} key={i} index={i} />
+        )
+      }
     })
     const viewAllButton = (<Button text="view all events" link="./events"/>)
     const header = (<h2 style={{margin: '0 0 20px 0', fontSize: '2.5em', color: 'black'}}>Upcoming Events</h2>)

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 class EventThumb extends Component {
   render() {
     const data = this.props.data
-    const bgImg = 'https://chicago1919.org/static/media/' + data.img
+    const bgImg = 'https://chicago1919.org/static/media/' + data.link + '.jpg'
     const index = this.props.index
     const id = 'events_' + index
     return (
