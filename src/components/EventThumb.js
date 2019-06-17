@@ -9,7 +9,7 @@ class EventThumb extends Component {
     const index = this.props.index
     const id = 'events_' + index
     return (
-      <div style={{backgroundImage: 'url(' + bgImg + ')', margin: index === 1 ? '0 30px' : 'unset'}} className={style.EventThumb} id={id}>
+      <div style={{backgroundImage: 'url(' + bgImg + ')', backgroundPosition: data.img[0], backgroundSize: data.img[1], margin: index === 1 ? '0 30px' : 'unset'}} className={style.EventThumb} id={id}>
         <a href={data.link}>
           <div className={style.TextContainer}>
             <h3>{data.title}</h3>

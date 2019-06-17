@@ -38,7 +38,7 @@ var DATA = {
             "date": "June 29",
             "time": "10:00 - 1:00 pm",
             "location": "Ride starts at 31st Street Beach",
-            "img": "Blackstone-Bicyle-Works_C9-llgPXUAA9YsH.jpg",
+            "img": ["0",""],
             "link": "bike-tour"
         },
         {
@@ -48,7 +48,7 @@ var DATA = {
             "date": "July 27",
             "time": "12:00 - 4:00 p.m.",
             "location": "Washington Square Park",
-            "img": "",
+            "img": ["40% 80%","200%"],
             "link": "bughouse-square"
         },
         { 
@@ -58,7 +58,7 @@ var DATA = {
             "date": "August 12",
             "time": "6:00 - 8:00 p.m.",
             "location": "Harold Washington Library, Pritzker Auditorium",
-            "img": "",
+            "img": ["left", "350%"],
             "link": "reflections-of-youth"
         },
         {
@@ -68,7 +68,7 @@ var DATA = {
             "date": "September 24",
             "time": "6:00 7:30 p.m.",
             "location": "Newberry Library",
-            "img": "",
+            "img": ["40% 50%", "200%"],
             "link": "literature-and-race"
         },
         {
