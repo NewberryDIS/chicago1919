@@ -3,13 +3,13 @@
 }
 
 .EventContainer {
-  margin:auto;
+  margin:auto;;
   margin-top:50px;
   width:75%;
 }
 
 .EventContainer h2, .EventContainer h3, .EventContainer h4 {
-  line-height:1;
+  line-height:1.1;
   text-transform:initial;
 }
 
@@ -29,6 +29,7 @@
 .EventThumb {
   flex-grow:0;
   flex-shrink:1;
+  border-right: 5px solid white;
   width:25vw;
   height:25vw;
   position:relative;
@@ -80,8 +81,11 @@
   font-size:3em;
 }
 
-.TextContainer h4 {
+.TextContainer h4{
   font-size:1.5em;
+}
+.TextContainer .eventDate{
+  font-size:2em;
 }
 
 .TextContainer h3, .TextContainer h4 {

@@ -14,7 +14,7 @@ class EventThumb extends Component {
           <div className={style.TextContainer}>
             <h3>{data.title}</h3>
             <h4>{data.subtitle}</h4>
-            <h4>{data.date}</h4>
+            <h4 style={{fontSize: '2em'}}>{data.date}</h4>
           </div>
         </a>
         <span style={{marginTop: 5, fontSize: '1.2em', fontWeight: 'bold'}}>{data.location}</span>
