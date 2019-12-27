@@ -2,6 +2,7 @@
   width:100%;
   display:flex;
   position:relative;
+  background: rgb(214,232,242);
 }
 
 .Container {

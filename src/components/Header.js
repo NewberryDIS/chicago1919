@@ -11,7 +11,7 @@ class Header extends Component {
         <div className={style.textContainer}>
           <h1>{title}</h1>
           <h2>{subtitle}</h2>
-          <a href="#events">Explore</a>
+          <a href="#about">Explore</a>
         </div>
         <span className={style.Caption}>
           During Chicago's 1919 Race Riots, African American veterans defended their communities from attacks by whites, while the state militia eventually quelled violence. Chicago Tribune Archives/TNS.

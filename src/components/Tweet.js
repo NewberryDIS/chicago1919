@@ -11,17 +11,17 @@ class Tweet extends Component {
       fontSize: 14,
       marginBottom: 5
     }
-    const linkToTweet = 'https://twitter.com/statuses/' + data.id
+    // const linkToTweet = 'https://twitter.com/statuses/' + data.id
     const userUrl = 'https://twitter.com/' + data.user.screen_name
     return (
       <div className={style.Tweet} >
         <img src={data.user.profile_img} />
         <div style={{display: 'inline-block', marginLeft: 5}}>
-        <h4><a href={userUrl} target="_blank" style={{color: 'rgb(15, 121, 180)'}}>{data.user.name}</a></h4>
+        <h4><a href={userUrl} target="_blank" className={style.truncator}>{data.user.name}</a></h4>
         <span style={usernameStyle}>@{data.user.screen_name}</span>
         </div>
         <span>{ReactHtmlParser(data.html_text)}</span>
-        <a href={linkToTweet} target="_blank" style={{marginTop: 10}}>Expand</a>
+        {/* <a href={linkToTweet} target="_blank" style={{marginTop: 10}}>Expand</a> */}
       </div>
     )
   }

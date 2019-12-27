@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import style from './css/Footer.css'
+import TwitterSection from './TwitterSection'
 // import TweetBox from './TweetBox'
 
 class Footer extends Component {
@@ -30,6 +31,7 @@ class Footer extends Component {
     })
     return (
       <div className={style.Footer}>
+        <TwitterSection />
         <div className={style.Container}>
           <div className={style.Top}>
             <a href="https://www.neh.gov/" target="_blank">

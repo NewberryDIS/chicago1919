@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import style from './css/Banner.css'
 import logo from './assets/Chicago-1919-logo-v2.png'
 import classNames from 'classnames'
+import { Link } from 'react-router-dom'
 
-class Banner extends Component {
+export class Banner extends Component {
   render() {
     const labels = window.DATA.banner.labels
     const path = window.location.pathname
@@ -25,16 +26,18 @@ class Banner extends Component {
       </g>
     </svg>)
     const labelHeaders = labels.map((l, i) => {
+      const link = l.toLowerCase() === 'gallery' ? '/past-event-images' : '/' + l.toLowerCase()
       const labelClasses = classNames({
         [style.labelContainer]: true,
-        [style.activeLabel]: path === '/' + l.toLowerCase() ? true : false
+        [style.activeLabel]: path === link ? true : false
       })
+
       return (
         // <span key={i}>&#10038; <a href="#">{l}</a></span>
-        <span key={i} className={labelClasses}><span><a href={'/' + l.toLowerCase()}>{star} {l}</a></span></span>
+        <span key={i} className={labelClasses}><span><Link to={link}>{star} {l}</Link></span></span>
       )
     })
-    labelHeaders.unshift(<span key="logo" style={{fontSize: '1em'}}><a href="https://chicago1919.org"><img src={logo} style={{height: 50}} /></a></span>)
+    labelHeaders.unshift(<span key="logo" style={{fontSize: '1em'}}><Link to="/"><img src={logo} style={{height: 50}} /></Link></span>)
 /*     for (let i = 1; i < 6; i = i + 2) {
       const key = 'star' + i
       const star = (<span key={key}>&#10038;</span>)
@@ -50,4 +53,4 @@ class Banner extends Component {
   }
 }
 
-export default Banner
+// export default Banner

@@ -3,6 +3,7 @@ var DATA = {
         "labels": [
             "Events",
             "Resources",
+            "Gallery",
             "About"
         ]
     },
@@ -39,7 +40,8 @@ var DATA = {
             "time": "10:00 - 1:00 pm",
             "location": "Ride starts at 31st Street Beach",
             "img": ["0",""],
-            "link": "bike-tour"
+            "link": "bike-tour",
+            "flag": "x"
         },
         {
             "title": "Legacies of 1919",
@@ -49,7 +51,8 @@ var DATA = {
             "time": "12:00 - 4:00 p.m.",
             "location": "Washington Square Park",
             "img": ["40% 80%","200%"],
-            "link": "bughouse-square"
+            "link": "bughouse-square",
+            "flag": "x"
         },
         { 
             "title": "Reflections of Youth",
@@ -59,7 +62,8 @@ var DATA = {
             "time": "6:00 - 8:00 p.m.",
             "location": "Harold Washington Library, Pritzker Auditorium",
             "img": ["left", "350%"],
-            "link": "reflections-of-youth"
+            "link": "reflections-of-youth",
+            "flag": "x"
         },
         {
             "title": "The Language of Bronzeville",
@@ -108,6 +112,22 @@ var DATA = {
         "title": "Mapping the 1919 Chicago Riot",
         "text": "<span>From July 27th to August 3rd, 1919, thousands of black and white Chicagoans fought each other in the streets, resulting in 38 deaths (23 African American and 15 white) and over 500 injuries (two-thirds of them African American). This interactive map shows how the riot was concentrated on the periphery of African American neighborhoods on Chicago’s South Side, as the city’s residential “color line” was both defended and created through inter-racial violence. <p>View <a href='map' target='_blank'>Mapping the 1919 Chicago Riot</a></p><\/span>",
         "link": "./map"
+    },
+    "gallery": {
+        "type": "Multimedia",
+        "title": "Events Gallery",
+        "text": "<p>The community conversations of Chicago 1919 bring together scholars, activists, and residents from across the city. Events range from discussions of race in reporting and segregation in education to spoken word performances and film screenings. Click here for a gallery of past events: photographs, video and audio recordings, and custom cartoons by artist Anya Davidson.",
+        "images": [[
+            { id: "2019-06-29-Photo-05_thumb.jpg", pos: '50% 50%', size: "150%" },
+            { id: "2019-06-29-Photo-12_thumb.jpg", pos: '50% 50%', size: "150%" },
+            { id: "2019-06-29-Photo-13_thumb.jpg", pos: '50% 50%', size: "150%" },
+            { id: "2019-06-29-Photo-09_thumb.jpg", pos: '50% 50%', size: "150%" }],[
+            { id: "2019-05-04-Photo-02_thumb.jpg", pos: '50% 50%', size: "150%" },
+            { id: "2019-05-04-Photo-04_thumb.jpg", pos: '50% 50%', size: "150%" },
+            { id: "2019-02-23-Photo-02.jpg",       pos: '50% 50%', size: "150%" },
+            { id: "2019-05-04-Photo-01_thumb.jpg", pos: '50% 50%', size: "150%" }
+        ]],
+        "link": "./past-event-images"
     },
     "partners": [
         {

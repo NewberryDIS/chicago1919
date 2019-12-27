@@ -1,21 +1,20 @@
 import React, { Component } from 'react'
 import style from './css/App.css'
 import Header from './Header'
-import Events from './Events'
+import Legacyevents from './legacyevents'
 import About from './About'
 import Featured from './Featured'
 import Footer from './Footer'
-import TwitterSection from './TwitterSection'
+// import TwitterSection from './TwitterSection'
 
 class Body extends Component {
   render() {
     return (
       <div className={style.Body} >
         <Header />
-        <Events />
         <About />
+        <Legacyevents />
         <Featured />
-        <TwitterSection />
         <Footer />
       </div>
     )

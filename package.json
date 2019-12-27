@@ -1,6 +1,7 @@
 {
   "name": "chicago1919",
   "license": "MIT",
+  "homepage": ".",
   "scripts": {
     "start": "webpack-dev-server --env dev",
     "build": "ENV=production webpack --progress --profile --colors",

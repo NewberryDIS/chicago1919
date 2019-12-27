@@ -130,3 +130,17 @@
     padding-top:15%;
   }
 }
+
+.legacyevents img {
+  padding: 10px;
+  margin: 0 10px 10px 10px ;
+    float:left;
+    width:50%;
+}
+.legacyevents div p {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-family: 'Special Elite', sans-serif;
+}

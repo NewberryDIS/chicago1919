@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import style from './css/Button.css'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 class Button extends Component {
   render() {
@@ -8,9 +9,9 @@ class Button extends Component {
     const link = this.props.link
     const customStyle = this.props.style
     return (
-      <a href={link} className={style.Button} style={customStyle} >
+      <Link to={link} className={style.Button} style={customStyle} >
         {text}
-      </a>
+      </Link>
     )
   }
 }
