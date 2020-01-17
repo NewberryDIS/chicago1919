@@ -111,7 +111,7 @@ var DATA = {
         "type": "Highlighted Digital Resource",
         "title": "Mapping the 1919 Chicago Riot",
         "text": "<span>From July 27th to August 3rd, 1919, thousands of black and white Chicagoans fought each other in the streets, resulting in 38 deaths (23 African American and 15 white) and over 500 injuries (two-thirds of them African American). This interactive map shows how the riot was concentrated on the periphery of African American neighborhoods on Chicago’s South Side, as the city’s residential “color line” was both defended and created through inter-racial violence. <p>View <a href='map' target='_blank'>Mapping the 1919 Chicago Riot</a></p><\/span>",
-        "link": "./map"
+        "link": "https://uchicago.maps.arcgis.com/apps/webappviewer/index.html?id=64e5689e591d465ea783d8730fef17d4"
     },
     "gallery": {
         "type": "Multimedia",
