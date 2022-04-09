@@ -21,7 +21,7 @@
     "fs": "0.0.1-security",
     "immutability-helper": "^2.7.0",
     "jsonfile": "^4.0.0",
-    "moment": "^2.20.1",
+    "moment": "^2.29.2",
     "react": "^15.5.4",
     "react-cellblock": "^3.0.4",
     "react-cursor-position": "^2.4.1",
