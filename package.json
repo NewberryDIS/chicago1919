@@ -63,7 +63,7 @@
     "html-webpack-plugin": "^2.28.0",
     "redux-devtools-extension": "^2.13.2",
     "webpack": "^2.5.1",
-    "webpack-dev-server": "^2.9.7",
+    "webpack-dev-server": "^5.0.4",
     "webpack-hot-middleware": "^2.18.0",
     "zip-webpack-plugin": "^2.1.0"
   }
